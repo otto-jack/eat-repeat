@@ -1,14 +1,14 @@
-const CACHE_NAME = 'food-os-v2-cache-4';
+const CACHE_NAME = 'eat-repeat-cache-1';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './src/app.js',
-  './src/app.js?v=20260601b',
+  './src/app.js?v=20260602a',
   './src/data.js',
   './src/storage.js',
   './src/styles.css',
-  './src/styles.css?v=20260601b',
+  './src/styles.css?v=20260602a',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];

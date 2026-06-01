@@ -1,6 +1,6 @@
 {
-  "name": "Food OS",
-  "short_name": "Food OS",
+  "name": "Eat Repeat",
+  "short_name": "Eat Repeat",
   "description": "Local-only meal plan, tracker, prep, shopping and recipe dashboard.",
   "start_url": "./index.html",
   "scope": "./",

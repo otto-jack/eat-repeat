@@ -1,6 +1,6 @@
-# Food OS
+# Eat Repeat
 
-Food OS is a local-first static PWA for meal planning, daily food logging, recipe ingredients, shopping lists, and backup export/import.
+Eat Repeat is a local-first static PWA for meal planning, daily food logging, recipe ingredients, shopping lists, and backup export/import.
 
 The app stores data in the browser with `localStorage`. There is no backend, login, analytics, or cloud sync.
 
