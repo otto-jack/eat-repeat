@@ -1,0 +1,21 @@
+# Local/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs/builds if framework added later
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Personal exported backups should not be committed
+food-os-backup*.json
+*.backup.json
+
+# Codex handoff/reference materials stay local for the public Pages repo
+docs/
+reference/
+*.zip

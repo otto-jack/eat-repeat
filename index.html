@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0e1117" />
+<link rel="manifest" href="manifest.webmanifest" />
+<title>Food OS v2 - Shopping + Tracker</title>
+<link rel="stylesheet" href="src/styles.css?v=20260601b" />
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="title-row">
+      <div class="brand"><h1>Food OS v2</h1><p id="top-subtitle">Local tracker + meal dashboard</p></div>
+      <button class="ghost" data-action="go-settings">Backup</button>
+    </div>
+    <div class="date-row" id="dateControls">
+      <button class="icon-btn" data-action="prev-day" aria-label="Previous day">‹</button>
+      <input id="datePicker" type="date" aria-label="Selected date" />
+      <button class="icon-btn" data-action="next-day" aria-label="Next day">›</button>
+    </div>
+    <div class="day-strip" id="dayStrip"></div>
+  </div>
+  <main class="main" id="main"></main>
+</div>
+<nav class="tabs" id="tabs"></nav>
+<div class="toast" id="toast"></div>
+<script type="module" src="src/app.js?v=20260601b"></script>
+</body>
+</html>
