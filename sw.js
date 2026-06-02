@@ -1,14 +1,16 @@
-const CACHE_NAME = 'eat-repeat-cache-16';
+const CACHE_NAME = 'eat-repeat-cache-19';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './src/app.js',
-  './src/app.js?v=20260602p',
+  './src/app.js?v=20260602s',
   './src/data.js',
+  './src/data.js?v=20260602s',
   './src/storage.js',
+  './src/storage.js?v=20260602s',
   './src/styles.css',
-  './src/styles.css?v=20260602p',
+  './src/styles.css?v=20260602s',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];

@@ -1,5 +1,5 @@
-import { DATA } from './data.js';
-import { STORE_PREFIX, readJSON, writeJSON } from './storage.js';
+import { DATA } from './data.js?v=20260602s';
+import { STORE_PREFIX, ensureUserDataPersisted, readJSON, writeJSON } from './storage.js?v=20260602s';
 const DAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
 const JS_TO_PLAN = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const PLAN_TO_JS = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
@@ -42,6 +42,7 @@ const MICRO_FIELDS = [
   ['b12','B12','B12 µg','µg',2.4],
   ['omega3','Omega-3','Omega-3 g','g',1.6]
 ];
+ensureUserDataPersisted();
 let selectedDate = localStorage.getItem(STORE_PREFIX+'selectedDate') || localISODate(new Date());
 let activeTab = localStorage.getItem(STORE_PREFIX+'activeTab') || 'today';
 let historyRange = Number(localStorage.getItem(STORE_PREFIX+'historyRange') || 30);
